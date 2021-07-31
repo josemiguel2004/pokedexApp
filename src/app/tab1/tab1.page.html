@@ -1,11 +1,108 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header >
+  <ion-toolbar color="dark">
     <ion-title>
-      Tab 1
+      Pokedex
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  
+
+  <!-- Searchbar with a placeholder -->
+<ion-searchbar placeholder="Buscar pokemons"></ion-searchbar>
+
+<!-- List of Text Items -->
+<ion-list>
+  <ion-item  lines="full"  class="ion-no-padding">
+    <ion-thumbnail slot="start">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png">
+    </ion-thumbnail>
+    <ion-label>
+      <div>
+        <h3>Bulbasaur</h3>
+        <ion-badge color="verde-claro">Grass</ion-badge>
+        <ion-badge color="roxo-claro">Poison</ion-badge>
+      </div>
+    </ion-label>
+
+    <ion-chip>
+      <ion-label color="verde-claro">001</ion-label>
+    </ion-chip>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item  lines="full"  class="ion-no-padding">
+    <ion-thumbnail slot="start">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png">
+    </ion-thumbnail>
+    <ion-label>
+      <div>
+        <h3>Charmander</h3>
+        <ion-badge color="fogo-chama">Fire</ion-badge>
+      </div>
+    </ion-label>
+
+    <ion-chip>
+      <ion-label color="fogo-chama">004</ion-label>
+    </ion-chip>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item  lines="full"  class="ion-no-padding">
+    <ion-thumbnail slot="start">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png">
+    </ion-thumbnail>
+    <ion-label>
+      <div>
+        <h3>Squirtle</h3>
+        <ion-badge color="agua">Water</ion-badge>
+      </div>
+    </ion-label>
+
+    <ion-chip>
+      <ion-label color="agua">007</ion-label>
+    </ion-chip>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item  lines="full"  class="ion-no-padding">
+    <ion-thumbnail slot="start">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png">
+    </ion-thumbnail>
+    <ion-label>
+      <div>
+        <h3>Pikachu</h3>
+        <ion-badge color="amarelo-claro">Electric</ion-badge>
+      </div>
+    </ion-label>
+
+    <ion-chip>
+      <ion-label color="dark">025</ion-label>
+    </ion-chip>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item  lines="full"  class="ion-no-padding">
+    <ion-thumbnail slot="start">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/052.png">
+    </ion-thumbnail>
+    <ion-label>
+      <div>
+        <h3>Meowth</h3>
+        <ion-badge color="cinza">Normal</ion-badge>
+      </div>
+    </ion-label>
+
+    <ion-chip>
+      <ion-label color="dark">052</ion-label>
+    </ion-chip>
+  </ion-item>
+</ion-list>
+
+
+
 </ion-content>
